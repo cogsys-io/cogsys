@@ -10,7 +10,9 @@ def main():
     parser.add_argument("_", nargs="*")
     args = parser.parse_args()
 
-    str0 = "🚀🚀🚀 Replace this message by putting your code into cogsys.cli.cogsys:main"
+    str0 = (
+        "🚀🚀🚀 Replace this message by putting your code into cogsys.cli.cogsys:main"
+    )
 
     print("Arguments: " + str(args._))
     print(str0)
